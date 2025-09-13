@@ -79,121 +79,26 @@
     </div>
 
     <!-- Kho tài liệu -->
-    <section id="kho-tailieu" class="py-5">
-      <div class="container">
-        <h2 class="content-sub fw-bold text-center mb-4">📚 Kho Tài Liệu</h2>
+   <section id="kho-tailieu" class="py-5">
+  <div class="container">
+    <h2 class="content-sub fw-bold text-center mb-3">📚 Kho Tài Liệu</h2>
 
-        <div class="row g-3">
-          <!-- Cột 1 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">HTML</a>
-            <a href="#" class="subject-btn">CSS</a>
-            <a href="#" class="subject-btn">JS</a>
-            <a href="#" class="subject-btn">TS</a>
-            <a href="#" class="subject-btn">React</a>
-            <a href="#" class="subject-btn">Vue</a>
-            <a href="#" class="subject-btn">Angular</a>
-            <a href="#" class="subject-btn">Svelte</a>
-            <a href="#" class="subject-btn">Next</a>
-            <a href="#" class="subject-btn">Nuxt</a>
-            <a href="#" class="subject-btn">Remix</a>
-            <a href="#" class="subject-btn">Gatsby</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
+    <!-- Thanh tìm kiếm -->
+    <div class="d-flex justify-content-center mb-4">
+      <input 
+        type="text" 
+        id="searchInput" 
+        class="form-control w-50" 
+        placeholder="🔍 Tìm tài liệu..." 
+      />
+    </div>
 
-          <!-- Cột 2 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">C</a>
-            <a href="#" class="subject-btn">C++</a>
-            <a href="#" class="subject-btn">C#</a>
-            <a href="#" class="subject-btn">Java</a>
-            <a href="#" class="subject-btn">Go</a>
-            <a href="#" class="subject-btn">Rust</a>
-            <a href="#" class="subject-btn">PHP</a>
-            <a href="#" class="subject-btn">Ruby</a>
-            <a href="#" class="subject-btn">Swift</a>
-            <a href="#" class="subject-btn">Kotlin</a>
-            <a href="#" class="subject-btn">Perl</a>
-            <a href="#" class="subject-btn">Scala</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
+    <!-- Nơi render danh sách môn -->
+    <div id="subjectContainer" class="row g-3"></div>
+  </div>
+</section>
 
-          <!-- Cột 3 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">Node</a>
-            <a href="#" class="subject-btn">Express</a>
-            <a href="#" class="subject-btn">NestJS</a>
-            <a href="#" class="subject-btn">Hapi</a>
-            <a href="#" class="subject-btn">Deno</a>
-            <a href="#" class="subject-btn">Bun</a>
-            <a href="#" class="subject-btn">Django</a>
-            <a href="#" class="subject-btn">Flask</a>
-            <a href="#" class="subject-btn">FastAPI</a>
-            <a href="#" class="subject-btn">Spring</a>
-            <a href="#" class="subject-btn">Laravel</a>
-            <a href="#" class="subject-btn">Symfony</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
 
-          <!-- Cột 4 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">SQL</a>
-            <a href="#" class="subject-btn">NoSQL</a>
-            <a href="#" class="subject-btn">MySQL</a>
-            <a href="#" class="subject-btn">SQLite</a>
-            <a href="#" class="subject-btn">Postgres</a>
-            <a href="#" class="subject-btn">Oracle</a>
-            <a href="#" class="subject-btn">Firebase</a>
-            <a href="#" class="subject-btn">MongoDB</a>
-            <a href="#" class="subject-btn">Redis</a>
-            <a href="#" class="subject-btn">Supabase</a>
-            <a href="#" class="subject-btn">Prisma</a>
-            <a href="#" class="subject-btn">Drizzle</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
-
-          <!-- Cột 5 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">Tailwind</a>
-            <a href="#" class="subject-btn">Bootstrap</a>
-            <a href="#" class="subject-btn">Bulma</a>
-            <a href="#" class="subject-btn">MUI</a>
-            <a href="#" class="subject-btn">Chakra</a>
-            <a href="#" class="subject-btn">AntD</a>
-            <a href="#" class="subject-btn">Sass</a>
-            <a href="#" class="subject-btn">Less</a>
-            <a href="#" class="subject-btn">PostCSS</a>
-            <a href="#" class="subject-btn">Styled</a>
-            <a href="#" class="subject-btn">DaisyUI</a>
-            <a href="#" class="subject-btn">Shoelace</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
-
-          <!-- Cột 6 -->
-          <div class="col-6 col-md-2 d-flex flex-column gap-2">
-            <a href="#" class="subject-btn">AI</a>
-            <a href="#" class="subject-btn">ML</a>
-            <a href="#" class="subject-btn">DL</a>
-            <a href="#" class="subject-btn">DataSci</a>
-            <a href="#" class="subject-btn">Pandas</a>
-            <a href="#" class="subject-btn">NumPy</a>
-            <a href="#" class="subject-btn">TensorFlow</a>
-            <a href="#" class="subject-btn">PyTorch</a>
-            <a href="#" class="subject-btn">Matplotlib</a>
-            <a href="#" class="subject-btn">Seaborn</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-            <a href="#" class="subject-btn">Scikit</a>
-            <a href="#" class="subject-btn">Keras</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Hệ thống mentor -->
     <section id="mentor" class="py-5">
@@ -287,7 +192,7 @@
 
     
 
-    <a href="#dang-ky" class="btn-mentor btn-cta">Đăng ký học với mentor</a>
+    <a href="../page/regis-mentor.html" class="btn-mentor btn-cta">Đăng ký học với mentor</a>
   </div>
 </section>
 
@@ -475,6 +380,13 @@
       Thu thập thành tích khi bạn hoàn thành bài học, tham gia sự kiện hoặc giúp đỡ cộng đồng.
       Mỗi thành tích sẽ giúp bạn tăng cấp độ và mở khóa phần thưởng đặc biệt.
     </p>
+
+    <!-- Thanh tiến độ -->
+<div class="progress mb-4" style="height: 25px;">
+  <div id="progress-bar" class="progress-bar bg-success fw-bold" role="progressbar" style="width: 0%;">
+    0%
+  </div>
+</div>
 
     <div class="d-flex flex-wrap justify-content-center gap-3">
       <!-- 30 thành tích - Demo 3 cái đạt được -->
